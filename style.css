@@ -1,0 +1,79 @@
+/*font and color*/
+
+body 	{
+	background: #fcf9ec;
+	color: rgb(20, 20, 20);
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+}
+
+#banner {
+	text-align: center;
+	background-image: url("https://images.unsplash.com/photo-1491982883790-ead7c97a047e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2485&q=80");
+	background-size: cover;
+	padding: 150px 0px;
+	text-shadow: 1px 1px 5px lightgrey;
+	color: white;
+}
+
+#banner h1	{
+	font-family: 'Roboto', sans-serif;
+	font-size: 60px;
+	color: lightblue;
+}
+
+h2{
+	font-size: 30px;
+}
+
+#banner p {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #348498;
+}
+
+p {
+	color: #348498;
+}
+
+.link:hover {
+	text-decoration: none;
+	color: #ff502f;
+}
+
+
+
+/*Custom Design
+*/
+
+.row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#footer{
+	text-align: center;
+	padding: 30px;
+	background: lightblue;
+}
+
+.section{
+	padding: 40px;
+	text-align: center;
+	font-weight: lighter;
+	color: lightblue;
+	margin: 0 20px 0px 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #004d61;
+}
+
+.fab {
+
+	margin: 0 5px 5px 5px;
+}
+
